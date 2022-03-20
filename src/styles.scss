@@ -30,6 +30,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 167px;
 }
 
+.w-100{
+    width: 100%;
+}
+
 .pointer{
     cursor: pointer;
 }
@@ -62,7 +66,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #8B9298;
 }
 
-.color-lgrey{
+.color-llgrey{
     color: rgba(38, 50, 56, 0.5);
 }
 
@@ -70,9 +74,25 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #FFFFFF;
 }
 
+.round-5{
+    border-radius: 5px;
+}
+
+.round-4{
+    border-radius: 4px;
+}
+
 .bg-blue{
     background: #0047CC;
 }
+
+.bg-cgrey{
+    background: #D4D4FF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);}
+
+.bg-cpink{
+    background: #FFD4DF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);}
 
 .bg-light{
     background: #4181F9;
@@ -121,4 +141,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .fw-700{
     font-weight: 700;
+}
+
+.line{
+    height: 1px;
+    background: #FFFFFF;
+    opacity: 0.2;
 }
