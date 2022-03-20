@@ -1,0 +1,124 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+* {
+    scrollbar-width: thin;
+    scrollbar-color:rgba(37, 63, 101, 0.3) transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 15px;
+    background: transparent;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    padding: 0 4px;
+    border-right:4px solid transparent;
+    border-left:4px solid transparent;
+    background: #C4C4C4;;
+    background-clip: padding-box;
+    border-radius: 50px;
+} 
+
+.w-167{
+    width: 167px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.mr-13{
+    margin-right: 13px;
+}
+
+.color-blue{
+    color: #0047CC;
+}
+
+.color-lblue{
+    color: #94B9FF;
+}
+
+.color-dblack{
+    color: #141623;
+}
+
+.color-black{
+    color: #263238;
+}
+
+.color-black{
+    color: #263238;
+}
+
+.color-lgrey{
+    color: #8B9298;
+}
+
+.color-lgrey{
+    color: rgba(38, 50, 56, 0.5);
+}
+
+.color-white{
+    color: #FFFFFF;
+}
+
+.bg-blue{
+    background: #0047CC;
+}
+
+.bg-light{
+    background: #4181F9;
+}
+
+.bg-fadeBlue{
+    background: #94B9FF;
+}
+
+.bg{
+    background: #EFF2F8;
+}
+
+.font-12{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.font-14{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.font-16{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.font-22{
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.font-36{
+    font-size: 36px;
+    line-height: 59px;
+}
+
+.fw-400{
+    font-weight: 400;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.fw-700{
+    font-weight: 700;
+}

@@ -1,0 +1,84 @@
+<div class="parent d-flex">
+  <div class="set">
+    <section class="sidebar">
+      <div class="d-flex justify-content-center my-4">
+        <img class="" src="assets/images/logo.svg" alt="">
+      </div>
+
+      <section class="d-flex align-items-center flex-column">
+        <div class="nav-sec">
+          <div routerLinkActive="active" routerLink="/home/dashboard" class="dashboard d-flex align-items-center w-167 mb-4 pointer">
+            <img class="mr-13" class="mr-13" src="assets/images/dashboard.svg" alt="">
+            <div class="color-blue">Dashboard</div>
+          </div>
+
+          <div class="d-flex align-items-center w-167 mb-4 pointer">
+            <img class="mr-13" src="assets/images/Mkolo.svg" alt="">
+            <div class="color-lgrey">Mkolo</div>
+          </div>
+
+          <div class="d-flex align-items-center w-167 mb-4 pointer">
+            <img class="mr-13" src="assets/images/earlypay.svg" alt="">
+            <div class="color-lgrey fw-400">Early Pay</div>
+          </div>
+
+          <div class="d-flex align-items-center w-167 mb-4 pointer">
+            <img class="mr-13" src="assets/images/paybills.svg" alt="">
+            <div class="color-lgrey">Pay Bills</div>
+          </div>
+
+          <div class="d-flex align-items-center w-167 mb-4 pointer">
+            <img class="mr-13" src="assets/images/debitcard.svg" alt="">
+            <div class="color-lgrey">Debit Cards</div>
+          </div>
+
+          <div class="d-flex align-items-center w-167 mb-4 pointer">
+            <img class="mr-13" src="assets/images/profile.svg" alt="">
+            <div class="color-lgrey">Profile</div>
+          </div>
+
+          <div class="d-flex align-items-center w-167 mb-4 pointer">
+            <img class="mr-13" src="assets/images/setting.svg" alt="">
+            <div class="color-lgrey">Settings</div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="color-black font-14 fw-700 mb-2">Help & Support</div>
+
+          <div class="d-flex align-items-center w-167 mb-2 pointer">
+            <img class="mr-13" src="assets/images/faq.svg" alt="">
+            <div class="color-blue fw-600 font-12 ml-2">FAQ’s</div>
+          </div>
+
+          <div class="d-flex align-items-center w-167 mb-2 pointer">
+            <img class="mr-13" src="assets/images/chat.svg" alt="">
+            <div class="color-blue fw-600 font-12 ml-2">Talk to someone</div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+  </div>
+
+  <section class="toolbar-top">
+
+    <div class="toolBar row">
+      <div class="col-md-8 m-auto">
+        <div class="text-center color-black fw-700 font-16">MY DASHBOARD</div>
+      </div>
+      <div class="col-md-4 d-flex justify-content-end">
+        <div class="top-nav-btn justify-content-between d-flex align-items-center">
+            <img src="assets/images/bell.svg" alt="">
+            <img src="assets/images/ben.svg" alt="">
+            <div class="color-white fw-400">Benedict Ulinfo</div>
+            <img src="assets/images/arrowdown.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </section>
+</div>
