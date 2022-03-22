@@ -4,7 +4,7 @@
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'DM Sans', sans-serif; overflow-y: hidden}
 * {
     scrollbar-width: thin;
     scrollbar-color:rgba(37, 63, 101, 0.3) transparent;
@@ -42,8 +42,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     margin-right: 13px;
 }
 
+.color-orange{
+    color:#ff8b44;
+}
+
 .color-blue{
     color: #0047CC;
+}
+
+.color-blue-2{
+    color: #4181F9;
 }
 
 .color-lblue{
@@ -72,6 +80,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .color-white{
     color: #FFFFFF;
+}
+
+.round-10{
+    border-radius: 10px;
 }
 
 .round-5{
@@ -106,6 +118,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: #EFF2F8;
 }
 
+.font-11{
+    font-size: 11px;
+    line-height: 18px;
+}
+
 .font-12{
     font-size: 12px;
     line-height: 24px;
@@ -119,6 +136,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .font-16{
     font-size: 16px;
     line-height: 25px;
+}
+
+.font-18{
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .font-22{
@@ -148,3 +170,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background: #FFFFFF;
     opacity: 0.2;
 }
+
+.overflow-x{
+    overflow-x: hidden;
+}
+
+.overflow-y{
+    overflow-y: hidden !important;
+}
+
