@@ -8,12 +8,8 @@ import { Router } from '@angular/router';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor(
-    private router: Router
-  ) { }
+  constructor( ) { }
 
-  ngOnInit(): void {
-    this.router.navigateByUrl('/home/dashboard')
-  }
+  ngOnInit(): void {}
 
 }

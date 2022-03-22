@@ -4,7 +4,7 @@
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: 'DM Sans', sans-serif; overflow-y: hidden}
+body { margin: 0; font-family: 'DM Sans', sans-serif; overflow-y: hidden; overflow-x: hidden}
 * {
     scrollbar-width: thin;
     scrollbar-color:rgba(37, 63, 101, 0.3) transparent;
